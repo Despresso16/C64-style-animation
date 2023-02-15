@@ -5,6 +5,7 @@ body {
     height: 50vw;
     background-repeat: no-repeat;
     color: white;
+    overflow: hidden;
     
 }
 
