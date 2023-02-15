@@ -1,0 +1,447 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(to top, rgb(0, 0, 65), rgb(0, 0, 20));
+    width: 100%;
+    height: 50vw;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+
+.stars {
+    
+    width: 100%;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 100s;
+    animation-timing-function: ease;
+    animation-name: stars-anim;
+    width: 100%;
+    
+    
+}
+
+pre {
+    margin-bottom: 10px;
+
+}
+@keyframes stars-anim {
+    from {
+        
+        margin-left: 10%;
+    }
+    to {
+        
+        margin-left: -200%;
+    }
+}
+
+
+
+pre:nth-of-type(1) {
+    color: white;
+    font-size: 14px;
+}
+pre:nth-of-type(2) {
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 14px;
+}
+pre:nth-of-type(3) {
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 17px;
+}
+pre:nth-of-type(4) {
+    color: rgba(255, 255, 255, 0.24);
+    font-size: 12px;
+}
+pre:nth-of-type(5) {
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 18px;
+}
+pre:nth-of-type(6) {
+    color: white;
+    font-size: 19px;
+}
+pre:nth-of-type(7) {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 15px;
+}
+pre:nth-of-type(8) {
+    color: rgba(255, 255, 255, 0.301);
+    font-size: 13px;
+}
+pre:nth-of-type(9) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 11px;
+}
+pre:nth-of-type(10) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-46px);
+}
+pre:nth-of-type(11) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-58px);
+}
+pre:nth-of-type(12) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-53px);
+}
+pre:nth-of-type(13) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-48px);
+}
+pre:nth-of-type(14) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-39px);
+}
+pre:nth-of-type(15) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-176px);
+}
+pre:nth-of-type(16) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-188px);
+}
+pre:nth-of-type(17) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-193px);
+}
+pre:nth-of-type(18) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-188px);
+}
+pre:nth-of-type(19) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-179px);
+}
+pre:nth-of-type(20) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-236px);
+}
+pre:nth-of-type(21) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-248px);
+}
+pre:nth-of-type(22) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-253px);
+}
+pre:nth-of-type(23) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-228px);
+}
+pre:nth-of-type(24) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-349px);
+}
+pre:nth-of-type(25) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-336px);
+}
+pre:nth-of-type(26) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-348px);
+}
+pre:nth-of-type(27) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-353px);
+}
+pre:nth-of-type(28) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-328px);
+}
+pre:nth-of-type(29) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-349px);
+}
+pre:nth-of-type(30) {
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 9px;
+    transform: translateY(-289px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.borealis, .borealis::after, .borealis::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250vw;
+    height: 250vw;
+    margin-left: -120vw;
+    transform-origin: 50% 52%;
+    z-index: 99;
+    border-radius: 35% 40%;
+    box-shadow: 0 0 12vw green,  0 0 20vw aqua, 0 0 30vw violet , inset 0 0 5vw green ,  inset 0 0 5vw green ;
+    animation-name: steamed_hams;
+    animation-duration: 61s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    mix-blend-mode: hard-light;
+
+}
+.borealis::after {
+    width: 105%;
+    height: 95%;
+    margin-top: -120vw;
+    z-index: 99;
+    transform-origin: 50% 52%;
+    border-radius: 40% 40%;
+    box-shadow:  0 0 12vw green,  0 0 20vw aqua, 0 0 30vw violet , inset 0 0 5vw green ,  inset 0 0 5vw green;
+    animation-name: steamed_hams;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.borealis::before {
+    width: 105%;
+    height: 95%;
+    margin-top: -120vw;
+    z-index: 99;
+    transform-origin: 52% 50%;
+    border-radius: 40% 40%;
+    box-shadow:  0 0 12vw green,  0 0 20vw aqua, 0 0 30vw violet , inset 0 0 5vw green ,  inset 0 0 5vw green;
+    animation-name: steamed_hams;
+    animation-duration: 59s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes steamed_hams {
+    0% {
+        transform: rotate(0deg); 
+        opacity: 1;
+        mix-blend-mode: hard-light;
+    }
+    50% { 
+        transform: rotate(360deg); 
+        opacity: 0.7;
+        mix-blend-mode: hard-light;
+    }
+    100% {
+        transform: rotate(0deg);
+        opacity: 1;
+        mix-blend-mode: hard-light;
+    }
+  }
+.aurora {
+    animation-name: steamed_clams;
+    animation-duration: 9s;
+    
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes steamed_clams {
+    from {
+        opacity: 0;
+        mix-blend-mode: hard-light;
+    }
+    to {
+        opacity: 1;
+        mix-blend-mode: hard-light;
+    }
+}
+
+
+
+.m1, .m2, .m3 {
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    z-index: 999;
+    background-color: rgb(0, 0, 48);
+    background-image: linear-gradient(to bottom right , rgb(12, 12, 65),rgb(1, 1, 34), rgb(8, 8, 114) );
+    
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: inset  0 0 2vw rgb(2, 2, 54);
+    
+}
+.m1 {
+
+    transform: rotate(45deg) translateX(-20vw) translateY(10vw);
+}
+.m2 {
+    transform: rotate(45deg) translateX(10vw) translateY(-20vw);
+}
+.m3 {
+    transform: rotate(45deg) translateX(40vw) translateY(-50vw);
+}
+
+.f1, .f2, .f3, .f4, .f5 {
+    width: 20vw;
+    height: 1px;
+    
+    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    margin-top: 5vw;
+    
+    
+   
+    
+}
+.f1 {
+    position: absolute;
+    animation-name: f1;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+.f2 {
+    transform: translateX(63vw);
+    position: absolute;
+    animation-name: f2;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.f3 {
+    position: absolute;
+    animation-name: f3;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.f4 {
+    position: absolute;
+    animation-name: f4;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.f5 {
+    position: absolute;
+    animation-name: f5;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes f1 {
+    from {
+       opacity: 1;
+        transform: translateY(-60vw) rotate(-80deg)  ;
+        margin-left: 10vw;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20vw) rotate(-80deg)  ;
+        margin-left: 0;
+    }
+}
+@keyframes f2 {
+    from {
+       opacity: 1;
+        transform: translateY(-160vw) rotate(-80deg)  ;
+        margin-left: 40vw;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20vw) rotate(-80deg)  ;
+        margin-left: 30vw;
+    }
+}
+@keyframes f3 {
+    from {
+       opacity: 1;
+        transform: translateY(-90vw) rotate(-80deg)  ;
+        margin-left: 60vw;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20vw) rotate(-80deg)  ;
+        margin-left: 50vw;
+    }
+}
+@keyframes f4 {
+    from {
+       opacity: 1;
+        transform: translateY(-200vw) rotate(-80deg)  ;
+        margin-left: 80vw;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20vw) rotate(-80deg)  ;
+        margin-left: 70vw;
+    }
+}
+@keyframes f5 {
+    from {
+       opacity: 1;
+        transform: translateY(-100vw) rotate(-80deg)  ;
+        margin-left: 100vw;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20vw) rotate(-80deg)  ;
+        margin-left: 90vw;
+    }
+}
+h1 {
+    transform: translateY(-10vw);
+    width: 94%;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    z-index: 9999;
+    animation-name: h1;
+    animation-duration: 5s;
+    animation-delay: 9s;
+    
+    animation-iteration-count: infinite;
+    opacity: 0;
+    
+}
+@keyframes h1 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.3;
+        color: green;
+    }
+    50% {
+        opacity: 0.2;
+        color: aqua;
+    }
+    75% {
+        opacity: 0.1;
+        color: violet;
+    }
+    100% {
+        opacity: 0;
+    }
+}
